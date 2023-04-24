@@ -1,6 +1,4 @@
-# Assignment Mobilicis India Private Limited
-
-(https://github.com/facebook/create-react-app).
+# Assignment : Mobilicis India Private Limited
 
 ## Available Scripts
 
@@ -85,3 +83,19 @@ Q4: Users which have a car of brand “BMW”, Mercedes-Benz or “Audi” and w
 Q5: Show the data of top 10 cities which have the highest number of users and their average income.
 
 ![Screenshot 2023-04-24 142729](https://user-images.githubusercontent.com/101965527/233949259-083623ef-16c6-49a9-84e4-d92ca7e8129b.png)
+# Client Side
+
+The main component is the Home.jsx<br>
+Using UseStates to set Data and UseEffect hook to call our function<br>
+
+![Screenshot 2023-04-24 151054](https://user-images.githubusercontent.com/101965527/233961509-4f44f8b9-a49c-4154-9505-66d1bfa6e288.png)
+
+Both the tables use conditional rendering to only show the table<br> containing the data and not the null.<br>  
+
+This is the First (Main table) that shows all user data depending on the api call.<br>
+
+![Screenshot 2023-04-24 151252](https://user-images.githubusercontent.com/101965527/233961531-334bdf01-7632-4545-904d-349fedd999b2.png)
+
+This is the Second as the table structure is different so to keep it simple we created a new table that will render when it's type of data is set ie. "avgIncome"<br>
+
+![Screenshot 2023-04-24 151332](https://user-images.githubusercontent.com/101965527/233961544-d59c2e42-ba50-4c17-9063-66f03ab6422a.png)
