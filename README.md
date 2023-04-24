@@ -28,21 +28,22 @@ Which can be found in api/routes/user.js
 To view any query just uncomment that query and save then refresh the page to see the results.
 
 ![Screenshot 2023-04-24 140327](https://user-images.githubusercontent.com/101965527/233944118-8158391d-f128-413b-842b-dddb2da01f89.png)
+Ps : Could not show all 1000 in the screensnip so the snips contain the start and end of table.
+![Screenshot 2023-04-24 141035](https://user-images.githubusercontent.com/101965527/233945578-09ae6d92-9803-4a94-a17a-227a0214f6a5.png)
+
+
+![Screenshot 2023-04-24 141047](https://user-images.githubusercontent.com/101965527/233945596-4e475af9-8644-416b-bd45-6d2cc3be34cc.png)
 
 #QUERY 1
 
 ![image](https://user-images.githubusercontent.com/101965527/233951480-1d529f9a-8097-453a-94f7-994aea2936d6.png)
 
 #Results for the first query (Q1: USERS WITH INCOME LESS THAN 5 AND CAR BMW OR MERCEDES )
-Ps- Could not show all 1000 in the screensnip so the snips contain the start and end of table.
 
-![Screenshot 2023-04-24 141035](https://user-images.githubusercontent.com/101965527/233945578-09ae6d92-9803-4a94-a17a-227a0214f6a5.png)
+![Screenshot 2023-04-24 141155](https://user-images.githubusercontent.com/101965527/233953246-9318d425-147b-40e5-a6d2-fbf0fba1fd73.png)
 
+![Screenshot 2023-04-24 141204](https://user-images.githubusercontent.com/101965527/233953253-1b4f3651-730e-4ce2-b65a-52cf173d10a6.png)
 
-![Screenshot 2023-04-24 141047](https://user-images.githubusercontent.com/101965527/233945596-4e475af9-8644-416b-bd45-6d2cc3be34cc.png)
-
-
-![Screenshot 2023-04-24 140628](https://user-images.githubusercontent.com/101965527/233944189-a2204dad-4e60-439a-9212-a92d39a8481d.png)
 #QUERY 2
 ![Screenshot 2023-04-24 140558](https://user-images.githubusercontent.com/101965527/233944215-f47ac626-a670-48ce-afc6-d17679025a14.png)
 #Results for the second query (Q2: QUERY TO GET MALES WITH PHONE PRICE GREATER THAN 10,000 )
@@ -61,7 +62,9 @@ Ps- Could not show all 1000 in the screensnip so the snips contain the start and
 
 ![Screenshot 2023-04-24 141956](https://user-images.githubusercontent.com/101965527/233947560-16574cfe-baac-4e73-85f9-7e3c90ed0147.png)
 #QUERY 4 
-![Screenshot 2023-04-24 140506](https://user-images.githubusercontent.com/101965527/233944212-c2f9030b-1b44-49bf-9635-de983dcda80f.png)
+
+![Screenshot 2023-04-24 140628](https://user-images.githubusercontent.com/101965527/233944189-a2204dad-4e60-439a-9212-a92d39a8481d.png)
+
 #Results for the 4th query 45 Entries (Q4: Users which have a car of brand “BMW”, Mercedes-Benz or “Audi” and whose email does not include any digit.
 
 ![Screenshot 2023-04-24 142313](https://user-images.githubusercontent.com/101965527/233948279-82a82006-bb14-4749-9287-1f4eaf1454ef.png)
@@ -70,7 +73,7 @@ Ps- Could not show all 1000 in the screensnip so the snips contain the start and
 
 #QUERY 5
 
-![Screenshot 2023-04-24 140654](https://user-images.githubusercontent.com/101965527/233944200-1432e9de-1b46-4863-81d8-ad4c6c2fe53f.png)
+![image](https://user-images.githubusercontent.com/101965527/233951925-705d2225-0eb2-4b78-923c-9976918bea93.png)
 
 #Results for the 5th query 10 Entries ( Q5: Show the data of top 10 cities which have the highest number of users and their average income. )
 
