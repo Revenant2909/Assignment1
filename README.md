@@ -27,6 +27,7 @@ To view any query just uncomment that query and save then refresh the page to se
 ![Screenshot 2023-04-24 140327](https://user-images.githubusercontent.com/101965527/233944118-8158391d-f128-413b-842b-dddb2da01f89.png)
 
 The default query loads the entire table.<br>
+
 Ps : Could not show all 1000 in the screensnip so the snips contain the start and end of table.
 
 ![Screenshot 2023-04-24 141035](https://user-images.githubusercontent.com/101965527/233945578-09ae6d92-9803-4a94-a17a-227a0214f6a5.png)
