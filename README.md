@@ -48,11 +48,13 @@ Q1: USERS WITH INCOME LESS THAN 5 AND CAR BMW OR MERCEDES
 #QUERY 2
 ![Screenshot 2023-04-24 140558](https://user-images.githubusercontent.com/101965527/233944215-f47ac626-a670-48ce-afc6-d17679025a14.png)
 #Results for the second query 406 such entries.<br> 
+
 Q2: QUERY TO GET MALES WITH PHONE PRICE GREATER THAN 10,000
 
-![Screenshot 2023-04-24 141155](https://user-images.githubusercontent.com/101965527/233946390-de2ba3ac-a438-4265-bf9b-2c18e8dea37e.png)
+![Screenshot 2023-04-24 145305](https://user-images.githubusercontent.com/101965527/233956046-ce9c8f10-36d4-49c3-8f0b-5c390c006299.png)
 
-![Screenshot 2023-04-24 141204](https://user-images.githubusercontent.com/101965527/233946395-1ca70eb1-a1b7-4983-9c7f-5776775afbe4.png)
+![Screenshot 2023-04-24 145312](https://user-images.githubusercontent.com/101965527/233956054-e0493738-f6a5-4bb1-aba8-bc7a354345a8.png)
+
 
 #QUERY 3
 
