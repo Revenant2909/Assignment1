@@ -1,7 +1,6 @@
-# Assignment
-# Getting Started with Create React App
+# Assignment Mobilicis India Private Limited
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -9,8 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-# To Setup the project<br>
+Runs the app in the development mode.
+#To Setup the project<br>
 Download the zip or fork the repository then open it in your IDE here for ex. Vscode.<br>
 Go to each directory api and client using cd and do npm install or yarn install to install all the dependencies.<br>
 #To Run the project<br> 
