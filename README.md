@@ -25,8 +25,10 @@ Which can be found in api/routes/user.js
 To view any query just uncomment that query and save then refresh the page to see the results.
 
 ![Screenshot 2023-04-24 140327](https://user-images.githubusercontent.com/101965527/233944118-8158391d-f128-413b-842b-dddb2da01f89.png)
-The default query loads the entire table.
+
+The default query loads the entire table.<br>
 Ps : Could not show all 1000 in the screensnip so the snips contain the start and end of table.
+
 ![Screenshot 2023-04-24 141035](https://user-images.githubusercontent.com/101965527/233945578-09ae6d92-9803-4a94-a17a-227a0214f6a5.png)
 
 
@@ -44,7 +46,9 @@ Q1: Users which have income lower than $5 USD and have a car of brand “BMW” 
 ![Screenshot 2023-04-24 141204](https://user-images.githubusercontent.com/101965527/233953253-1b4f3651-730e-4ce2-b65a-52cf173d10a6.png)
 
 #QUERY 2
+
 ![Screenshot 2023-04-24 140558](https://user-images.githubusercontent.com/101965527/233944215-f47ac626-a670-48ce-afc6-d17679025a14.png)
+
 #Results for the second query 406 such entries.<br> 
 
 Q2: Male Users which have phone price greater than 10,000.
