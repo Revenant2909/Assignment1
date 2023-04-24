@@ -20,3 +20,6 @@ table td {
     border: 1px solid #b1afaf;
     padding-bottom: 3px;
 }
+.second{
+  justify-content: space-evenly;
+}

@@ -88,8 +88,6 @@ router.get("/",async (req,res)=>{
 //Q:5 Show the data of top 10 cities which have the highest
 //    number of users and their average income.
 //---------------------------------------------------------
-
-
 // router.get("/",async (req,res)=>{
 //     const{} = req.query;
 //         try {
@@ -114,7 +112,6 @@ router.get("/",async (req,res)=>{
 //                 console.log(results);
 //                 res.status(200).json({results});
 //               })
-//             // res.status(200).json({results});
 //         } 
 //         catch (err) {
 //             res.status(500).json(err);

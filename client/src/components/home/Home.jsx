@@ -7,32 +7,29 @@ const API = "http://localhost:8800/api/users/";
 
 const Home = () => {
 
+  //Use State for the avg table since it has different headers.
   const [avgincome, setAvgIncome] = useState([]);
+
+  //Use State for all other tables
   const [users, setUsers] = useState([{}]);
 
+  //Fetch function to Fetch the data from the backend.
   const fetchUsers = async (url) => {
     try {
       const res = await axios.get(url);
-      console.log(res.data);
-
+      //If the avg income table is being run then setAvgIncome state 
       if (res.data.results != null && res.data.results.length === 10) {
         setAvgIncome(res.data.results);
-        console.log("Average incomes Set");
-        console.log(avgincome);
       }
+     // otherwise setUsers
       else {
         setUsers(res.data.myData);
-        console.log("This is Users");
-        console.log(users);
       }
-      console.log("Data has been set");
-
     } catch (error) {
       console.log(error);
     }
   }
-
-
+ //useEffect to call our function
   useEffect(() => {
     fetchUsers(API);
   }, [])
@@ -56,12 +53,9 @@ const Home = () => {
             <th>Quote</th>
             <th>Phone price</th>
           </tr>
-        </thead>
-        <tbody>
+        </thead> <tbody>
           {users.map((curr) => {
-
             const { _id, id, first_name, last_name, email, gender, car, city, income, quote, phone_price } = curr;
-
             return (
               <tr key={_id} >
                 <td>{id}</td>
@@ -75,14 +69,14 @@ const Home = () => {
                 <td>{quote}</td>
                 <td>{phone_price}</td>
               </tr>
-            )
-          })
-          }
+            ) })}
         </tbody>
       </table>}
+
       {avgincome.length > 0 && <>
-        <h2>Table Displaying (Q:5)the data of top 10 cities which have the highest number of users and their average income.</h2>
-        <table>
+        <h2>Table Displaying (Q:5)the data of top 10 cities which 
+        have the highest number of users and their average income.</h2>
+        <table className='second'>
           <thead>
             <tr>
               <th>ID</th>
@@ -92,9 +86,7 @@ const Home = () => {
           </thead>
           <tbody>
             {avgincome.map((curr) => {
-
               const { _id, averageIncome, totalUsers } = curr;
-
               return (
                 <tr key={_id} >
                   <td>{_id}</td>
