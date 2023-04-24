@@ -8,25 +8,26 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.
-#To Setup the project<br>
+Runs the app in the development mode.<br>
+# To Setup the project<br>
 Download the zip or fork the repository then open it in your IDE here for ex. Vscode.<br>
 Go to each directory api and client using cd and do npm install or yarn install to install all the dependencies.<br>
-#To Run the project<br> 
-Type npm start in both terminals again using the cd commandline for ex. 
-Step: 1 cd client
-Step: 2 npm start
-Similarly do the same for api
+# To Run the project<br> 
+Type npm start in both terminals again using the cd commandline for ex.<br> 
+Step: 1 cd client<br> 
+Step: 2 npm start<br> 
+Similarly do the same for api<br> 
 now your application should be running on 
 for ex "http://localhost:3000/api/users" on either port 3000 or 8800.<br>
-As given in the assignment I've made seperate calls in the backend for each query for simplicity.
+As given in the assignment I've made seperate calls in the backend for each query for simplicity.<br> 
 Which can be found in api/routes/user.js
-------------------------------------------------------------------------
+<br> 
 #The user.js looks like this<br>
-------------------------------------------------------------------------
+<br> 
 To view any query just uncomment that query and save then refresh the page to see the results.
 
 ![Screenshot 2023-04-24 140327](https://user-images.githubusercontent.com/101965527/233944118-8158391d-f128-413b-842b-dddb2da01f89.png)
+The default query loads the entire table.
 Ps : Could not show all 1000 in the screensnip so the snips contain the start and end of table.
 ![Screenshot 2023-04-24 141035](https://user-images.githubusercontent.com/101965527/233945578-09ae6d92-9803-4a94-a17a-227a0214f6a5.png)
 
@@ -38,7 +39,7 @@ Ps : Could not show all 1000 in the screensnip so the snips contain the start an
 ![image](https://user-images.githubusercontent.com/101965527/233951480-1d529f9a-8097-453a-94f7-994aea2936d6.png)
 
 #Results for the first query 38 such entries.<br> 
-Q1: USERS WITH INCOME LESS THAN 5 AND CAR BMW OR MERCEDES 
+Q1: Users which have income lower than $5 USD and have a car of brand “BMW” or “Mercedes”.
 
 ![Screenshot 2023-04-24 141155](https://user-images.githubusercontent.com/101965527/233953246-9318d425-147b-40e5-a6d2-fbf0fba1fd73.png)
 
@@ -48,7 +49,7 @@ Q1: USERS WITH INCOME LESS THAN 5 AND CAR BMW OR MERCEDES
 ![Screenshot 2023-04-24 140558](https://user-images.githubusercontent.com/101965527/233944215-f47ac626-a670-48ce-afc6-d17679025a14.png)
 #Results for the second query 406 such entries.<br> 
 
-Q2: QUERY TO GET MALES WITH PHONE PRICE GREATER THAN 10,000
+Q2: Male Users which have phone price greater than 10,000.
 
 ![Screenshot 2023-04-24 145305](https://user-images.githubusercontent.com/101965527/233956046-ce9c8f10-36d4-49c3-8f0b-5c390c006299.png)
 
@@ -60,7 +61,7 @@ Q2: QUERY TO GET MALES WITH PHONE PRICE GREATER THAN 10,000
 ![Screenshot 2023-04-24 140607](https://user-images.githubusercontent.com/101965527/233944178-4e309c00-81a8-4dc0-8223-25a09f1921d8.png)
 
 #Results for the third query 76 Entries.<br>
-Q3: QUERY FOR LAST NAME STARTS WITH 'M' AND QUOTE LENGTH GREATER THAN 15 AND EMAIL INCLUDES LAST NAME
+Q3: Users whose last name starts with “M” and has a quote character length greater than 15 and email includes his/her last name.
 
 ![Screenshot 2023-04-24 141949](https://user-images.githubusercontent.com/101965527/233947549-d747c2a3-b26e-4260-8a6c-22f4b225be96.png)
 
