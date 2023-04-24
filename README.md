@@ -29,7 +29,9 @@ To view any query just uncomment that query and save then refresh the page to se
 
 ![Screenshot 2023-04-24 140327](https://user-images.githubusercontent.com/101965527/233944118-8158391d-f128-413b-842b-dddb2da01f89.png)
 
-![Screenshot 2023-04-24 140607](https://user-images.githubusercontent.com/101965527/233944178-4e309c00-81a8-4dc0-8223-25a09f1921d8.png)
+#QUERY 1
+
+![image](https://user-images.githubusercontent.com/101965527/233951480-1d529f9a-8097-453a-94f7-994aea2936d6.png)
 
 #Results for the first query (Q1: USERS WITH INCOME LESS THAN 5 AND CAR BMW OR MERCEDES )
 Ps- Could not show all 1000 in the screensnip so the snips contain the start and end of table.
@@ -41,7 +43,8 @@ Ps- Could not show all 1000 in the screensnip so the snips contain the start and
 
 
 ![Screenshot 2023-04-24 140628](https://user-images.githubusercontent.com/101965527/233944189-a2204dad-4e60-439a-9212-a92d39a8481d.png)
-
+#QUERY 2
+![Screenshot 2023-04-24 140558](https://user-images.githubusercontent.com/101965527/233944215-f47ac626-a670-48ce-afc6-d17679025a14.png)
 #Results for the second query (Q2: QUERY TO GET MALES WITH PHONE PRICE GREATER THAN 10,000 )
 
 ![Screenshot 2023-04-24 141155](https://user-images.githubusercontent.com/101965527/233946390-de2ba3ac-a438-4265-bf9b-2c18e8dea37e.png)
@@ -50,7 +53,7 @@ Ps- Could not show all 1000 in the screensnip so the snips contain the start and
 
 #QUERY 3
 
-![Screenshot 2023-04-24 140654](https://user-images.githubusercontent.com/101965527/233944200-1432e9de-1b46-4863-81d8-ad4c6c2fe53f.png)
+![Screenshot 2023-04-24 140607](https://user-images.githubusercontent.com/101965527/233944178-4e309c00-81a8-4dc0-8223-25a09f1921d8.png)
 
 #Results for the third query 76 Entries (Q3: QUERY FOR LAST NAME STARTS WITH 'M' AND QUOTE LENGTH GREATER THAN 15 AND EMAIL INCLUDES LAST NAME )
 
@@ -66,7 +69,9 @@ Ps- Could not show all 1000 in the screensnip so the snips contain the start and
 ![Screenshot 2023-04-24 142319](https://user-images.githubusercontent.com/101965527/233948293-36ad1e79-d748-4f05-80fe-48e1d6475086.png)
 
 #QUERY 5
-![Screenshot 2023-04-24 140558](https://user-images.githubusercontent.com/101965527/233944215-f47ac626-a670-48ce-afc6-d17679025a14.png)
+
+![Screenshot 2023-04-24 140654](https://user-images.githubusercontent.com/101965527/233944200-1432e9de-1b46-4863-81d8-ad4c6c2fe53f.png)
+
 #Results for the 5th query 10 Entries ( Q5: Show the data of top 10 cities which have the highest number of users and their average income. )
 
 ![Screenshot 2023-04-24 142729](https://user-images.githubusercontent.com/101965527/233949259-083623ef-16c6-49a9-84e4-d92ca7e8129b.png)
